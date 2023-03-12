@@ -1,0 +1,46 @@
+.movie__list {
+    padding: 0 3rem 3rem 3rem;
+}
+
+.list__title {
+font-size: 1.75rem;
+margin:  2.5rem;
+}
+
+.list__cards {
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: center;
+}
+.searchBar{
+    text-align: center;
+    margin: 2px 2px 20px 20px;
+}
+.searchBar>input{
+    width: 300px;
+    padding: 10px 10px 10px 10px;
+    border: none;
+    border-bottom: 1px solid greenyellow;
+    outline: none; 
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-size: medium;
+}
+.SearchList{
+    display: flex;
+    justify-content: center;
+    margin-top: 4px;
+}
+.SingleItem{
+    color:antiquewhite;
+    width: 300px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(18, 25, 23);
+}
+.SingleItem:hover{
+    opacity: 0.7;
+    
+}
